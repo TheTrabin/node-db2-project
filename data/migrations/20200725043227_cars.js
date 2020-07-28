@@ -7,7 +7,7 @@ exports.up = function(knex, Promise) {
         tbl.text('make', 128).notNullable();
         tbl.text('model', 128).notNullable();
         tbl.float('mileage').notNullable();
-        table.foreign('sales').references('cars')
+        
     })
 };
 
